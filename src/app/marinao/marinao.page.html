@@ -2,16 +2,39 @@
   <ion-toolbar>
     <ion-title>marinao</ion-title>
   </ion-toolbar>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Roboto&display=swap');
+    </style>
+
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">marinao</ion-title>
-      <ion-item (click)="irPara('../home/home.page.html')">
-      <ion-button  fill="clear"><ion-icon name="arrow-back-outline"></ion-icon></ion-button>
-    </ion-item>
 
+  <ion-header collapse="condense">
+
+    <ion-toolbar>
+      <ion-title size="large">Marinao</ion-title>
     </ion-toolbar>
+
   </ion-header>
+  <ion-item>
+  <img class="perfil"
+  src="https://imgs.search.brave.com/rHGxLmHEhHXYHU9D0Nd_u6C5hO1Ae1WbsohRAjJAI84/rs:fit:1000:1000:1/g:ce/aHR0cHM6Ly9hcnQu/bmdmaWxlcy5jb20v/aW1hZ2VzLzMwNDAw/MC8zMDQyMzJfamNk/cl90aHJlc2gucG5n/P2YxNDAxNTQ3ODc1"
+  alt="">
+  <!-- <p class="number">  14 99934-4440</p> -->
+</ion-item>
+
+<ion-item class="about">
+  <ion-label>
+    About
+  </ion-label>
+  <ion-item> Marina é um nome de origem latina, que significa "do mar". Ela pode ser encontrada em várias partes do mundo, incluindo países como Brasil, Portugal, Itália, Espanha e Rússia. Pessoas chamadas Marina tendem a ser emocionalmente inteligentes e compassivas com os outros, e a cor associada ao nome Marina é azul, frequentemente associada ao mar e à tranquilidade. Algumas pessoas com o nome Marina famosas incluem a atriz brasileira Marina Ruy Barbosa e a cantora grega Marina Diamandis. </ion-item>
+</ion-item>
 </ion-content>
+<ion-footer>
+  <ion-item>
+    <ion-button (click)="irPara('../home/home.page.html')" fill="clear">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+  </ion-item>
+</ion-footer>
