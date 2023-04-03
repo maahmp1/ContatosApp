@@ -35,6 +35,14 @@
   --ion-color-success-shade: #28ba62;
   --ion-color-success-tint: #42d77d;
 
+  /** purple **/
+  --ion-color-purple: #801281;
+	--ion-color-purple-rgb: 128,18,129;
+	--ion-color-purple-contrast: #ffffff;
+	--ion-color-purple-contrast-rgb: 255,255,255;
+	--ion-color-purple-shade: #711072;
+	--ion-color-purple-tint: #8d2a8e;
+
   /** warning **/
   --ion-color-warning: #ffc409;
   --ion-color-warning-rgb: 255, 196, 9;
@@ -182,6 +190,15 @@
     --ion-item-background: #000000;
 
     --ion-card-background: #1c1c1d;
+
+    .ion-color-purple {
+      --ion-color-base: var(--ion-color-purple);
+      --ion-color-base-rgb: var(--ion-color-purple-rgb);
+      --ion-color-contrast: var(--ion-color-purple-contrast);
+      --ion-color-contrast-rgb: var(--ion-color-purple-contrast-rgb);
+      --ion-color-shade: var(--ion-color-purple-shade);
+      --ion-color-tint: var(--ion-color-purple-tint);
+    }
   }
 
   .ios ion-modal {

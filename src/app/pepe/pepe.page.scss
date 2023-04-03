@@ -1,0 +1,29 @@
+ion-title {
+  text-align: center;
+}
+
+.about {
+  margin-top: 3%;
+}
+ion-content {
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif;
+}
+
+ion-item{
+  text-align: center;
+
+}
+.perfil {
+  width: 60%;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 20%;
+  -webkit-box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
+}

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-duda',
@@ -12,9 +13,12 @@ import { IonicModule } from '@ionic/angular';
 })
 export class DudaPage implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit() {
+  }
+  back(rota: string) {
+    this.router.navigate([rota])
   }
 
 }

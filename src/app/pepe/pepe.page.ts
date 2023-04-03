@@ -20,5 +20,8 @@ export class PepePage implements OnInit {
   }
   ngOnInit() {
   }
+  back(rota: string) {
+    this.router.navigate([rota])
+  }
 
 }
