@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 import { Router } from '@angular/router';
+import { ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-marinao',
@@ -15,6 +16,8 @@ export class MarinaoPage implements OnInit {
 
   constructor(private router: Router) { }
 
+
+
   irPara(rota: string) {
     this.router.navigate([rota]);
   }
@@ -24,4 +27,5 @@ export class MarinaoPage implements OnInit {
   back(rota: string) {
     this.router.navigate([rota])
   }
+
 }

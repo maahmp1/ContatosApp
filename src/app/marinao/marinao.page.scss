@@ -22,9 +22,23 @@ ion-title {
 ion-content {
   font-family: "Edu NSW ACT Foundation", cursive;
   font-family: "Roboto", sans-serif;
-}
+  --background:var(--ion-color-gray)
 
+}
+ion-header{
+  --background:var(--ion-color-blue)
+
+}
 ion-item{
+  --background:var(--ion-color-gray)
+
   text-align: center;
 
 }
+
+.ion-button{
+ margin:30%;
+}
+
+
+
