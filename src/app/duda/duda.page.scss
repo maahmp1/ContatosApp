@@ -27,3 +27,15 @@ ion-item{
   -moz-box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
   box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
 }
+ion-card-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: large;
+
+}
+
+.aboutButton {
+  margin-left: 12%;
+}
+

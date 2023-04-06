@@ -10,9 +10,8 @@ ion-content {
   font-family: "Roboto", sans-serif;
 }
 
-ion-item{
+ion-item {
   text-align: center;
-
 }
 .perfil {
   width: 60%;
@@ -26,4 +25,15 @@ ion-item{
   -webkit-box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
   box-shadow: 4px 23px 26px -6px rgba(0, 0, 0, 0.25);
+}
+
+.aboutButton {
+  margin-left: 12%;
+}
+
+ion-card-content {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: large;
 }
